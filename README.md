@@ -93,16 +93,16 @@
 5. P - родитель
  
  ### Операции над деревом ван Эмде Боаса
+**InsertFixup**
+![equation](http://www.imageup.ru/img146/3205710/rbtinsert.png)
 **Insert - вставка элемента**
-
-
-
+![equation](http://www.imageup.ru/img146/3205710/rbtinsert.png)
+**LeftRotate, RightRotate**
+![equation](http://www.imageup.ru/img146/3205716/rbtinsertfix.png)
 **Remove - удаление элемента**
 
 
 **Find - поиск элемента**
-
-Алгоритм:
 ![equation](http://www.imageup.ru/img146/3205705/rbtfind.png)
 
 **Traverse - обход дерева**
