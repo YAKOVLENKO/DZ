@@ -94,7 +94,7 @@
  
  ### Операции над деревом ван Эмде Боаса
 **InsertFixup**
-![equation](http://www.imageup.ru/img146/3206060/rbtfixinserteasy.png)
+![equation](http://www.imageup.ru/img146/3206160/rbtfixinserteasy.png)
 **Insert - вставка элемента**
 ![equation](http://www.imageup.ru/img146/3206061/rbtinserteasy.png)
 **LeftRotate, RightRotate**
