@@ -92,20 +92,20 @@
 4. Right - правый ребенок  
 5. P - родитель
  
- ### Операции над деревом ван Эмде Боаса
-**LeftRotate, RightRotate**
-На данном изображении представлен случай для LeftRotate. RightRotate выполняется зеркально.
-+ ![equation](http://www.imageup.ru/img146/3206167/rbtleftroteasy.png)
-**InsertFixup**
-![equation](http://www.imageup.ru/img146/3206160/rbtfixinserteasy.png)
-**Insert - вставка элемента**
-![equation](http://www.imageup.ru/img146/3206061/rbtinserteasy.png)
-**Transplant**
-![equation](http://www.imageup.ru/img146/3206168/rbttransplanteasy.png)
-**RemoveFixup**
-![equation](http://www.imageup.ru/img146/3206180/rbtfixdeleteeasy.png)
-**Remove - удаление элемента**
-![equation](http://www.imageup.ru/img146/3206172/rbtdeleteeasy.png)
-**Find - поиск элемента**
-![equation](http://www.imageup.ru/img146/3205705/rbtfind.png)
+ ### Операции над деревом
+**LeftRotate, RightRotate**  
+На данном изображении представлен случай для LeftRotate. RightRotate выполняется зеркально.  
+![equation](http://www.imageup.ru/img146/3206167/rbtleftroteasy.png)  
+**InsertFixup**  
+![equation](http://www.imageup.ru/img146/3206160/rbtfixinserteasy.png)  
+**Insert - вставка элемента**  
+![equation](http://www.imageup.ru/img146/3206061/rbtinserteasy.png)  
+**Transplant**  
+![equation](http://www.imageup.ru/img146/3206168/rbttransplanteasy.png)  
+**RemoveFixup**  
+![equation](http://www.imageup.ru/img146/3206180/rbtfixdeleteeasy.png)  
+**Remove - удаление элемента**  
+![equation](http://www.imageup.ru/img146/3206172/rbtdeleteeasy.png)  
+**Find - поиск элемента**  
+![equation](http://www.imageup.ru/img146/3205705/rbtfind.png)  
 
