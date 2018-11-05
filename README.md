@@ -95,7 +95,7 @@
  ### Операции над деревом ван Эмде Боаса
 **LeftRotate, RightRotate**
 На данном изображении представлен случай для LeftRotate. RightRotate выполняется зеркально.
-![equation](http://www.imageup.ru/img146/3206167/rbtleftroteasy.png)
++ ![equation](http://www.imageup.ru/img146/3206167/rbtleftroteasy.png)
 **InsertFixup**
 ![equation](http://www.imageup.ru/img146/3206160/rbtfixinserteasy.png)
 **Insert - вставка элемента**
