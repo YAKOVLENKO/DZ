@@ -108,4 +108,17 @@
 ![equation](http://www.imageup.ru/img146/3206172/rbtdeleteeasy.png)  
 **Find - поиск элемента**  
 ![equation](http://www.imageup.ru/img146/3205705/rbtfind.png)  
-
+**InfixTraverse, PrefixTraverse, PostfixTraverse**  
+INFIX_TRAVERSE — обойти всё дерево, следуя порядку (левое поддерево, вершина, правое поддерево).  
+PREFIX_TRAVERSE — обойти всё дерево, следуя порядку (вершина, левое поддерево, правое поддерево).  
+POSTFIX_TRAVERSE — обойти всё дерево, следуя порядку (левое поддерево, правое поддерево', вершина).  
+На изображении приведен алгоритм INFIX_TRAVERSE
+![equation](http://www.imageup.ru/img146/3206342/rbtinfixtrav.png)  
+**Minimum**  
+![equation](http://www.imageup.ru/img146/3206355/rbtmineasy.png)  
+**Maximum**  
+![equation](http://www.imageup.ru/img146/3206351/rbtmaxeasy.png)  
+**Successor, Predecessor**
+Процедура Predecessor симметричка процедуре Successor   
+На изображении приведен алгоритм Successor.  
+![equation](http://www.imageup.ru/img146/3206358/rbtsuccessor.png)
