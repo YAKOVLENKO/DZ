@@ -1,5 +1,18 @@
 
 # Домашнее задание: Алгоритмы и структуры данных
+
+## Форматы входных и выходных данных 
+**Входные данные**  
+
+Входной файл содержит последовательность команд, то есть представляет набор строк вида:  
+command [key],  
+где command — add, delete, search, min, max, print или спец. команда;   
+key — ключ, целое число;  
+
+**Выходные данные**
+Последовательный вывод результата выполнения всех операций
+
+
 ## Теоретическая часть: Дерево ван Эмде Боаса
 
 Дерево ван Эмде Боаса (vEB tree) — ассоциативный массив, который позволяет хранить целые числа в диапазоне [0; U), где U = ![equation](http://latex.codecogs.com/gif.latex?2%5E%7Bk%7D), и осуществлять над ними все соответствующие дереву поиска операции.
@@ -13,7 +26,9 @@
 2. Max - максимальное значение дерева, корнем которого является данный узел 
 3. Summary - вспомогательное дерево, хранящее информацию о детях текущего узла
 4. Cluster - массив, хранящий указатели на детей узла
-5. U - число элементов, хранящееся в дереве, корнем которого является текущий узел
+5. U - число элементов, хранящееся в дереве, корнем которого является текущий узел  
+
+![equation](http://www.imageup.ru/img16/3224154/veb.png)  
 
 Следует сказать, что минимальное значение, которое может принимать U, является 2.  
 
@@ -26,22 +41,22 @@
 
 ### Операции над деревом ван Эмде Боаса
 
-**Tree Member**  
+**isMember**  
 Проверка на наличие в структуре  
 ![equation](http://www.imageup.ru/img16/3224003/vebmember-2.png)  
 
-**Empty**  
+**isEmpty**  
 ![equation](http://www.imageup.ru/img16/3224008/vebempty-1.png)  
 
 **Min, Max**  
 
 Минимальное и максимальное значения хранятся в дереве отдельно, поэтому данные операции не требуют ничего, кроме вывода значения поля min или max в соответствии с запросом.  
 
-**Insert**  
+**Add**  
 Вставка элемента  
 ![equation](http://www.imageup.ru/img16/3224071/vebinsert-1.png)
 
-**Remove**  
+**Delete**  
 Удаление элемента  
 Пусть в структуре находится элемент, который требуется удалить  
 ![equation](http://www.imageup.ru/img16/3224092/vebdelete.png)
@@ -76,29 +91,22 @@
 2. Key  - ключ
 3. Left  - левый ребенок
 4. Right - правый ребенок  
-5. P - родитель
+5. P - родитель  
+ 
+ ![equation](http://www.imageup.ru/img16/3224156/rbtstr.png)
  
  ### Операции над деревом
-**LeftRotate, RightRotate**  
-На данном изображении представлен случай для LeftRotate. RightRotate выполняется зеркально.  
-![equation](http://www.imageup.ru/img146/3206167/rbtleftroteasy.png)  
-  
-**InsertFixup**  
-![equation](http://www.imageup.ru/img146/3206160/rbtfixinserteasy.png)  
-  
-**Insert - вставка элемента**  
+ 
+**Add**  
+Вставка элемента  
 ![equation](http://www.imageup.ru/img146/3206061/rbtinserteasy.png)  
   
-**Transplant**  
-![equation](http://www.imageup.ru/img146/3206168/rbttransplanteasy.png)  
-  
-**RemoveFixup**  
-![equation](http://www.imageup.ru/img146/3206180/rbtfixdeleteeasy.png)  
-  
-**Remove - удаление элемента**  
+**Delete**  
+Удаление элемента  
 ![equation](http://www.imageup.ru/img146/3206172/rbtdeleteeasy.png)  
   
-**Find - поиск элемента**  
+**Search**  
+Поиск элемента  
 ![equation](http://www.imageup.ru/img146/3205705/rbtfind.png)  
   
 **InfixTraverse, PrefixTraverse, PostfixTraverse**  
@@ -108,13 +116,28 @@ POSTFIX_TRAVERSE — обойти всё дерево, следуя порядк
 На изображении приведен алгоритм INFIX_TRAVERSE  
 ![equation](http://www.imageup.ru/img146/3206342/rbtinfixtrav.png)  
   
-**Minimum**  
+**Min**  
 ![equation](http://www.imageup.ru/img146/3206355/rbtmineasy.png)  
   
-**Maximum**  
+**Max**  
 ![equation](http://www.imageup.ru/img146/3206351/rbtmaxeasy.png)  
   
-**Successor, Predecessor**  
-Процедура Predecessor симметричка процедуре Successor   
-На изображении приведен алгоритм Successor  
+**Next, Prev**  
+Процедура Prev симметрична процедуре Next   
+На изображении приведен алгоритм Next  
 ![equation](http://www.imageup.ru/img146/3206358/rbtsuccessor.png)
+
+### Некоторые функции, необходимые для работы операций красно-черного дерева
+
+**LeftRotate, RightRotate**  
+На данном изображении представлен случай для LeftRotate. RightRotate выполняется зеркально.  
+![equation](http://www.imageup.ru/img146/3206167/rbtleftroteasy.png)  
+  
+**InsertFixup**  
+![equation](http://www.imageup.ru/img146/3206160/rbtfixinserteasy.png)  
+
+**Transplant**  
+![equation](http://www.imageup.ru/img146/3206168/rbttransplanteasy.png)  
+  
+**RemoveFixup**  
+![equation](http://www.imageup.ru/img146/3206180/rbtfixdeleteeasy.png)  
